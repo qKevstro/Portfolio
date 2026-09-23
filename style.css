@@ -68,7 +68,7 @@ nav a {
     padding: 0.6rem 1rem;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.95 rem;
+    font-size: 0.95rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0,0.04);
 }
 
@@ -109,7 +109,7 @@ h2{
 
 .skills-list li{
     background-color: #e0f2fe;
-    color: 0369a1;
+    color: #0369a1;
     font-weight: 700;
     padding: 0.5rem 1rem;
     border: solid 2px black;
@@ -120,7 +120,7 @@ h2{
 .card{
     background-color: #ffffff;
     border-radius: 12px;
-    pad: 1.5rem;
+    padding: 1.5rem;
     margin-bottom: 1.5rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0,0.05);
     border: 1px solid #e2e8f0;
@@ -132,7 +132,7 @@ h2{
     justify-content: center;
     margin-top: 1.5rem;
     gap: 1rem;
-    margin-top: 100px;
+    margin-top: 9vh;
 }
 
 .contacts a{
@@ -181,7 +181,15 @@ h2{
     display: grid;
     grid-column: 1 / -1;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     color:#0284c7;
     font-weight: 700;
+}
+
+.img_change{
+    width: 25px;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 1rem 0;
 }
