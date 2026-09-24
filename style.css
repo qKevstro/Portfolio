@@ -43,7 +43,15 @@ header .subtitle{
     background-color: #ffffff;
 }
 
-#pixel_gaming{
+.projects_showcase{
+    width: 9.18rem;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.project_images{
     width: 100%;
     max-height: 220px;
     object-fit: cover;
@@ -188,6 +196,20 @@ h2{
 
 .img_change{
     width: 25px;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 1rem 0;
+    text-decoration: none;
+}
+
+.title{
+    color:#004B87;
+    font-weight: bold;
+}
+
+#project_img{
+    width: 100%;
     max-height: 220px;
     object-fit: cover;
     border-radius: 8px;

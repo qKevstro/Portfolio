@@ -1,0 +1,45 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+article{
+    color: white;
+}
+
+article h1{
+    color: white;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #7C3AED
+}
+
+a:hover{
+    background-color: white;
+    color: #7C3AED;
+}
+
+p{
+    font-size: 15px;
+    max-width: 500px;
+    color: #7C3AED;
+}
+
+p:hover{
+    background-color: white;
+}
+
+
