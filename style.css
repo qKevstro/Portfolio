@@ -215,3 +215,33 @@ h2{
     border-radius: 8px;
     margin: 1rem 0;
 }
+
+.psn{
+    padding: 5px;
+    text-decoration: none;
+    color: #003791;
+    background-color: #f0f4f8;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.psn:hover{
+    background-color: #003791;
+    color: white;
+}
+
+.tiktok_page{
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    transition: 0.6s ease;
+}
+
+.tiktok_page:hover{
+    color: #00F2FE;
+}
