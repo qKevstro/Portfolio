@@ -43,12 +43,24 @@ header .subtitle{
     background-color: #ffffff;
 }
 
+.showcase_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
 .projects_showcase{
-    width: 9.18rem;
-    max-height: 100px;
+    width: 100%;
+    max-height: 120px;
     object-fit: cover;
     border-radius: 8px;
-    margin: 1rem 0;
+    display: block;
+    transition: transform 0.2 ease;
+}
+
+.projects_showcase:hover{
+    transform: scale(1.03);
 }
 
 .project_images{
@@ -125,6 +137,11 @@ h2{
     font-size: 0.9rem;
 }
 
+.skills-list li a{
+    text-decoration: none;
+    color: #0369a1;
+}
+
 .card{
     background-color: #ffffff;
     border-radius: 12px;
@@ -157,6 +174,15 @@ h2{
     font-weight: 600;
 }
 
+.contacts p{
+    display: grid;
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 0.5rem;
+    color:#0284c7;
+    font-weight: 700;
+}
+
 .contacts a:hover{
     transform: translateY(-2px);
 }
@@ -176,7 +202,7 @@ h2{
 #gmail:hover{
     color: #ffffff;
     background-color: #EA4335;
-    border: 2px solid gray;
+    border: 2px solid lightslategray;
 }
 
 #ntig:hover{
@@ -185,21 +211,8 @@ h2{
     border: 2px solid #004B87;
 }
 
-.contacts p{
-    display: grid;
-    grid-column: 1 / -1;
-    text-align: center;
-    margin-top: 0.5rem;
-    color:#0284c7;
-    font-weight: 700;
-}
-
 .img_change{
-    width: 25px;
-    max-height: 220px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin: 1rem 0;
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -232,6 +245,7 @@ h2{
 }
 
 .tiktok_page{
+    display: inline-block;
     padding: 8px;
     font-size: 12px;
     font-weight: bold;
@@ -244,4 +258,47 @@ h2{
 
 .tiktok_page:hover{
     color: #00F2FE;
+}
+
+.part{
+    color: #004B87;
+}
+
+#features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#features h2, #features p{
+    width: 100%;
+}
+
+
+
+@media (max-width: 500px) {
+    body{
+        padding: 1rem 0.5rem;
+    }
+
+    #container{
+        width: 100%;
+    }
+
+    .contacts{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    nav a{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.85rem;
+    }
+
+    .projects_showcase{
+        width: 45%;
+        max-height: 90px;
+    }
 }
