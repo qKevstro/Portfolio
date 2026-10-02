@@ -277,7 +277,7 @@ h2{
 
 
 
-@media (max-width: 500px) {
+@media (min-width: 501px) {
     body{
         padding: 1rem 0.5rem;
     }

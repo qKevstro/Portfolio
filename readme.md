@@ -11,9 +11,9 @@ Detta är min personliga hemsida skapad som ett skolprojekt.
 För att hemsidan ska se bra ut på alla enheter som mobil, dator och så vidare har jag använt CSS Media Queries
 
 ## Motivering
-* max-width: 500px (Mobiler): jag behövde byta några saker, mest av saker var bilder i kollumer, de overlappade och de var squished tillsammans så jag behövde ändra storleker på bilder men också använde en annan grid på collumn, t.ex om dator hade repeat(2, 1fr) då behövde jag skriva repeat(1, 1fr) på mobiltelefoner som de är i en kollumn så de går inte overlappar eller sånt. Jag också bytte andra saker som body's padding så allting blir inte förtrångt när skärmen minskas.
+* min-width: 501px (skärmar större än mobil/Dator): Jag byggde sidan enligt mobile-first, vilke tinnebär att grundkoden i CSS anpassades för mobiltelefoner först. På mobiler använder jag en kolumn (repeat(1, 1fr)) för att bilderna inte skulleöverlappa eller bli squishade typ, samt minskade padding på body så att innehållet inte blev för trångt. Därefter använde jag för större skärmar, där jag ändrade griddet till två kollumner och justerade bildstorlekerna samt marginalerna så att layouten nyttjar och den bredare skärmen bättre
 
 ## valideringsbevis
 ![Validerings_Bevis_HTML](img/validerings_bevis_html.png)
 
-![Validerings_Bevis_CSS](img/css_validerings_bevis_css.png)
+![Validerings_Bevis_CSS](img/validerings_bevis_css.png)
